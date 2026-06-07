@@ -17,7 +17,7 @@ import 'presentation/screens/end_screen.dart';
 import 'domain/entities/game_state.dart';
 
 void main() {
-  // --- Composition Root ---
+
   final dataSource = GameLocalDataSource();
   final repository = GameRepositoryImpl(dataSource: dataSource);
 

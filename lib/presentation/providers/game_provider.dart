@@ -1,6 +1,3 @@
-// CAPA DE PRESENTACIÓN — Provider
-// Solo conoce los casos de uso. No sabe nada de DataSources ni implementaciones.
-// Expone el estado a la UI y delega la lógica a los use cases.
 
 import 'package:flutter/foundation.dart';
 import '../../domain/entities/game_state.dart';

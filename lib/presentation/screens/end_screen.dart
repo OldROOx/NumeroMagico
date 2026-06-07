@@ -1,4 +1,3 @@
-// CAPA DE PRESENTACIÓN — Pantalla de resultado (ganó/perdió)
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';

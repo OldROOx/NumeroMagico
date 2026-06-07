@@ -1,4 +1,3 @@
-// CAPA DE PRESENTACIÓN — Pantalla de juego activo
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -20,7 +19,7 @@ class PlayingScreen extends StatelessWidget {
 
     return Column(
       children: [
-        // Header
+
         Container(
           padding: const EdgeInsets.fromLTRB(24, 24, 24, 16),
           child: Column(
@@ -37,7 +36,7 @@ class PlayingScreen extends StatelessWidget {
                         fontWeight: FontWeight.bold,
                         height: 1.2),
                   ),
-                  // Intentos restantes
+
                   Container(
                     padding: const EdgeInsets.symmetric(
                         horizontal: 16, vertical: 10),
@@ -72,7 +71,7 @@ class PlayingScreen extends StatelessWidget {
                 ],
               ),
               const SizedBox(height: 16),
-              // Rango actual
+
               Container(
                 padding: const EdgeInsets.symmetric(
                     horizontal: 14, vertical: 8),
@@ -102,7 +101,7 @@ class PlayingScreen extends StatelessWidget {
           ),
         ),
 
-        // Historial
+
         Expanded(
           child: state.history.isEmpty
               ? Center(
@@ -133,7 +132,7 @@ class PlayingScreen extends StatelessWidget {
           ),
         ),
 
-        // Tarjeta intento actual
+
         const CurrentGuessCard(),
         const SizedBox(height: 16),
       ],

@@ -1,6 +1,4 @@
-// CAPA DE DATA — Implementación del repositorio
-// Implementa el contrato definido en el dominio.
-// Es el puente entre DataSource y el dominio.
+
 
 import '../../domain/entities/game_state.dart';
 import '../../domain/repositories/game_repository.dart';
